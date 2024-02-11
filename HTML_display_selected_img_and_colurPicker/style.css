@@ -1,0 +1,60 @@
+body{
+    background-color: aqua;
+    margin: 30px 100px 50px 200px;
+}
+#display{
+    border: 1px solid;
+    width: 284px;
+    height: 200px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 17px; */
+}
+.container{
+    background-color: antiquewhite;
+    background-color: antiquewhite;
+    width: 304px;
+    padding: 25px;
+    border-radius: 13px;
+}
+#input{
+    display: none;
+}
+label{
+    width: 20px;
+    border: 1px solid;
+    height: 5px;
+    padding: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+#pick-Colur{
+    background-color: aliceblue;
+    padding: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 81px;
+    height: 23px;
+}
+#colurdiaplay{
+    width: 80px;
+    height: 38px;
+    border: 1px solid;
+    position: relative;
+    bottom: 55px;
+    left: 217px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#copied{
+    width: 150px;
+    height: 20px;
+    /* height: 38px; */
+    border: 1px solid;
+    position: relative;
+    bottom: 24px;
+color: red;
+
+}

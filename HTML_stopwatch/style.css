@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(107, 162, 209);
+    margin: 50px auto 0 auto ;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    width: 95px;
+    height: 39px;
+    border-radius: 6px;
+    border: none;
+    margin: 5px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    font-size: large;
+}
+
+button:hover{
+    background-color: aliceblue;
+}

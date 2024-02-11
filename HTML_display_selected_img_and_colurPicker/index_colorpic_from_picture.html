@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1209f60da0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+       <div class="container">    
+        <div id="display">
+           <img id="imgtag" alt="">
+        </div>
+
+        <div class="button">
+            <label for="input">selectImage</label>
+            <input type="file" id="input" accept="image/png, image/jpg" >
+            <input type="button" id="pick-Colur" value="picColur">
+        </div>
+<br>
+        <div class="colurDisplay">
+            <input type="text" id="colurHexa" value="">
+            <button id="hexacopy" onclick="copytext()"> 
+                <i class="fa-solid fa-copy"></i>
+            </button> <br>
+            <br>
+            <input type="text" id="colurRGB">
+            <button id="rgbCpty" onclick="copytextRGB()"> 
+                <i class="fa-solid fa-copy"></i>
+            </button>   
+            <div id="colurdiaplay"></div>  
+            <div id="copied" style="display: none;">Copied</div> 
+        </div>
+       </div>
+       <script src="screeprt.js">
+        
+       </script>
+</body>
+</html>

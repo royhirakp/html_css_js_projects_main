@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRT-29 FEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>PRT-stopwatch</h1>
+    <div>
+        <h2>
+            <span id="hour">00</span>:
+            <span id="munit">00</span>:
+            <span id="sec">00</span>:
+            <span id="milisec">000</span>
+        </h2>
+    </div>
+    <div class="button">
+        <button onclick="stopwatchOpration(`start`)" id="start">Start</button>
+        <button onclick="stopwatchOpration('pause')" id="pause">pause</button>
+        <button onclick="stopwatchOpration(`reset`)" id="reset">Reset</button>
+        <button onclick="cast()" id="castbutton">Cast</button>
+    </div>
+
+    <div id="cast"></div>
+    <script src="Sscreept.js"></script>
+</body>
+
+</html>
